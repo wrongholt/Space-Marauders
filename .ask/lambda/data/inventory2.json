@@ -1,0 +1,1698 @@
+[
+  {
+    "name": "Red",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Flames",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "fire",
+    "special": "catch fire",
+    "specialDamage": 1,
+    "specialRounds": 1,
+    "specialPercentage": 0.1,
+    "image": "image"
+  },
+  {
+    "name": "Doom",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "shotgun",
+    "image": "image"
+  },
+  {
+    "name": "Proud",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "shotgun",
+    "image": "image"
+  },
+  {
+    "name": "Prudence",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Bandit's Revolver",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "revolver",
+    "image": "image"
+  },
+  {
+    "name": "Vindicator",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "War Blaster",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Lazarus",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "automatic rifle",
+    "special": "acid",
+    "specialDamage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.38,
+    "image": "image"
+  },
+  {
+    "name": "Lightning Rifle",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "rifle",
+    "special": "lightning",
+    "specialDamage": 2,
+    "specialRounds": 3,
+    "specialPercentage": 0.32,
+    "image": "image"
+  },
+  {
+    "name": "Ravager",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 7,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Devourer",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "automatic rifle",
+    "special": "bleed",
+    "specialDamage": 2,
+    "specialRounds": 2,
+    "specialPercentage": 0.39,
+    "image": "image"
+  },
+  {
+    "name": "Red and Gold",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Icer",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "cold",
+    "image": "image",
+    "special": "cold",
+    "specialRounds": 1,
+    "specialPercentage": 0.1
+  },
+  {
+    "name": "Piety",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Midnight",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Starfall",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "blaster",
+    "special": "radiant",
+    "specialRounds": 1,
+    "specialDamage": 2,
+    "specialPercentage": 0.3,
+    "image": "image"
+  },
+  {
+    "name": "Eveningstar",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "blaster",
+    "special": "radiant",
+    "specialRounds": 1,
+    "specialDamage": 2,
+    "specialPercentage": 0.28,
+    "image": "image"
+  },
+  {
+    "name": "Storm Forged",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "blaster",
+    "special": "lightning",
+    "specialRounds": 1,
+    "specialDamage": 3,
+    "specialPercentage": 0.33,
+    "image": "image"
+  },
+  {
+    "name": "Oblivion",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "blaster",
+    "special": "necrotic",
+    "specialRounds": 2,
+    "specialDamage": 2,
+    "specialPercentage": 0.31,
+    "image": "image"
+  },
+  {
+    "name": "War Heart",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "rifle",
+    "special": "bleed",
+    "specialRounds": 2,
+    "specialDamage": 3,
+    "specialPercentage": 0.45,
+    "image": "image"
+  },
+  {
+    "name": "Destiny's Rifle",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "rifle",
+    "special": "bleed",
+    "specialRounds": 2,
+    "specialDamage": 2,
+    "specialPercentage": 0.45,
+    "image": "image"
+  },
+  {
+    "name": "Cataclysm",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "automatic rifle",
+    "special": "bleed",
+    "specialRounds": 3,
+    "specialDamage": 2,
+    "specialPercentage": 0.42,
+    "image": "image"
+  },
+  {
+    "name": "Big Bertha",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "railgun",
+    "special": "lightning",
+    "specialRounds": 2,
+    "specialDamage": 3,
+    "specialPercentage": 0.38,
+    "image": "image"
+  },
+
+  {
+    "name": "Howling Bronzed Rifle",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Mighty Mouse",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Ironbark",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Typhoon",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 2,
+    "damageType": "shotgun",
+    "image": "image"
+  },
+  {
+    "name": "Prideful Boomstick",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "shotgun",
+    "image": "image"
+  },
+  {
+    "name": "Chaos",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "shotgun",
+    "special": "bleed",
+    "specialRounds": 2,
+    "specialDamage": 2,
+    "specialPercentage": 0.26,
+    "image": "image"
+  },
+  {
+    "name": "Pink Mist",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "shotgun",
+    "special": "bleed",
+    "specialRounds": 1,
+    "specialDamage": 4,
+    "specialPercentage": 0.32,
+    "image": "image"
+  },
+  {
+    "name": "Tribunal",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Frenzied Titanium Blaster",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Maneater",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "automatic rifle",
+    "image": "image"
+  },
+  {
+    "name": "Rage",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 8,
+    "damageType": "shotgun",
+    "image": "image"
+  },
+  {
+    "name": "Warmonger",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 7,
+    "damageType": "railgun",
+    "image": "image"
+  },
+
+  {
+    "name": "Glinting Repeater",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "auto blaster",
+    "image": "image"
+  },
+  {
+    "name": "Sprocket",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Chromed Repeater",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "auto blaster",
+    "image": "image"
+  },
+  {
+    "name": "Pulse",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Blackout",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "special": "blind",
+    "specialRounds": 1,
+    "specialDamage": 1,
+    "specialSkip": 1,
+    "specialPercentage": 0.26,
+    "damageType": "shotgun",
+    "image": "image"
+  },
+  {
+    "name": "Vicious",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "special": "bleed",
+    "specialRounds": 1,
+    "specialDamage": 1,
+    "specialPercentage": 0.26,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Exile",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Toots",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 5,
+    "damageType": "railgun",
+    "image": "image"
+  },
+  {
+    "name": "Punisher",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 7,
+    "damageType": "revolver",
+    "image": "image"
+  },
+  {
+    "name": "Disturbance",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 7,
+    "damageType": "revolver",
+    "image": "image"
+  },
+  {
+    "name": "Widow Maker",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "revolver",
+    "special": "bleed",
+    "specialRounds": 2,
+    "specialDamage": 3,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Headhunter",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 8,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Legacy",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Echo",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "revolver",
+    "image": "image"
+  },
+  {
+    "name": "Dream",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Patriot",
+    "type": "ranged",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "rifle",
+    "image": "image"
+  },
+  {
+    "name": "Lightning Iron Revolver",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "revolver",
+    "special": "lightning",
+    "specialRounds": 1,
+    "specialDamage": 3,
+    "specialPercentage": 0.32,
+    "image": "image"
+  },
+  {
+    "name": "Iron Patriot",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "rifle",
+    "special": "radiant",
+    "specialRounds": 2,
+    "specialDamage": 1,
+    "specialPercentage": 0.33,
+    "image": "image"
+  },
+  {
+    "name": "Guardian",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "blaster",
+    "image": "image"
+  },
+  {
+    "name": "Commando Repeater",
+    "type": "ranged",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "auto blaster",
+    "image": "image"
+  },
+  {
+    "name": "Furious Ironbark Blunderbuss",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "shotgun",
+    "special": "shrapnel",
+    "specialRounds": 2,
+    "specialDamage": 4,
+    "specialPercentage": 0.42,
+    "image": "image"
+  },
+  {
+    "name": "Big Daddy",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "rifle",
+    "special": "fire",
+    "specialRounds": 3,
+    "specialDamage": 3,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Nirvana",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "rifle",
+    "special": "radiant",
+    "specialRounds": 3,
+    "specialDamage": 2,
+    "specialPercentage": 0.43,
+    "image": "image"
+  },
+  {
+    "name": "Apocalypse",
+    "type": "ranged",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "rifle",
+    "special": "necrotic",
+    "specialRounds": 3,
+    "specialDamage": 3,
+    "specialPercentage": 0.44,
+    "image": "image"
+  },
+  {
+    "name": "Blood",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Interrogator",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Space Rapier",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "piercing",
+    "image": "image"
+  },
+  {
+    "name": "Whirl Lash",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Wrath",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "cold",
+    "specialRounds": 2,
+    "specialPercentage": 0.25
+  },
+  {
+    "name": "Fate",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Truth Tearer",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Snare Lash",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Massacre",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "bleed",
+    "specialDamage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.38
+  },
+  {
+    "name": "Witherbrand",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "bleed",
+    "specialDamage": 2,
+    "specialRounds": 4,
+    "specialPercentage": 0.45
+  },
+  {
+    "name": "Laser Staff",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "bludgeoning",
+    "image": "image",
+    "special": "lightning",
+    "specialDamage": 3,
+    "specialRounds": 3,
+    "specialPercentage": 0.42
+  },
+  {
+    "name": "Oath Keeper",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "radiant",
+    "specialDamage": 2,
+    "specialRounds": 3,
+    "specialPercentage": 0.38
+  },
+
+  {
+    "name": "Peacesong",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Dawn",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Drillmaster",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "piercing",
+    "image": "image"
+  },
+  {
+    "name": "Ultra Smasher",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "bludgeoning",
+    "image": "image"
+  },
+  {
+    "name": "Earthsong",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Mighty Axe",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "slashing",
+    "special": "bleed",
+    "specialDamage": 2,
+    "specialRounds": 1,
+    "specialPercentage": 0.33,
+    "image": "image"
+  },
+  {
+    "name": "Space Quaker",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "bludgeoning",
+    "image": "image"
+  },
+  {
+    "name": "Frostward",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "slashing",
+    "special": "cold",
+    "specialDamage": 2,
+    "specialRounds": 1,
+    "specialPercentage": 0.33,
+    "image": "image"
+  },
+  {
+    "name": "Solarsong",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "special": "radiant",
+    "specialDamage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.38,
+    "image": "image"
+  },
+  {
+    "name": "vengeance razor",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 8,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Phantomsong",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "special": "necrotic",
+    "specialDamage": 2,
+    "specialRounds": 3,
+    "specialPercentage": 0.35,
+    "image": "image"
+  },
+  {
+    "name": "Nexus",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "special": "radiant",
+    "specialDamage": 3,
+    "specialRounds": 3,
+    "specialPercentage": 0.36,
+    "image": "image"
+  },
+  {
+    "name": "Ash",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "bludgeoning",
+    "image": "image"
+  },
+  {
+    "name": "Bulldog",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "piercing",
+    "image": "image"
+  },
+  {
+    "name": "Plant Breaker",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "bludgeoning",
+    "image": "image"
+  },
+  {
+    "name": "Netherlight",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Pounder of the Depth",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "bludgeoning",
+    "image": "image"
+  },
+  {
+    "name": "World Slayer",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Oct-A-Sword",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Rock Quaker",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Fiery Katana",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "special": "fire",
+    "specialDamage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.36,
+    "image": "image"
+  },
+  {
+    "name": "Wolf",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 7,
+    "damageType": "piercing",
+    "image": "image"
+  },
+  {
+    "name": "Avenger",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "piercing",
+    "special": "bleed",
+    "specialDamage": 2,
+    "specialRounds": 3,
+    "specialPercentage": 0.42,
+    "image": "image"
+  },
+  {
+    "name": "Alpha",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 8,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Sting",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "piercing",
+    "image": "image"
+  },
+  {
+    "name": "Net Staff",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "bludgeoning",
+    "image": "image"
+  },
+  {
+    "name": "Celeste",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "piercing",
+    "image": "image"
+  },
+  {
+    "name": "Arm Blades",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 2,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Lifedrinker",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "special": "life",
+    "specialDamage": 3,
+    "specialRounds": 1,
+    "health": 3,
+    "specialPercentage": 0.32,
+    "image": "image"
+  },
+  {
+    "name": "Electro Gloves",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "bludgeoning",
+    "special": "lightning",
+    "specialDamage": 2,
+    "specialRounds": 2,
+    "specialPercentage": 0.34,
+    "image": "image"
+  },
+  {
+    "name": "Neo Shocker",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "piercing",
+    "special": "lightning",
+    "specialDamage": 3,
+    "specialRounds": 1,
+    "specialPercentage": 0.36,
+    "image": "image"
+  },
+  {
+    "name": "Soulkeeper",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "special": "life",
+    "specialDamage": 2,
+    "specialRounds": 2,
+    "health": 2,
+    "specialPercentage": 0.33,
+    "image": "image"
+  },
+  {
+    "name": "Soul Devourer",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 7,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Soul Reaper",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "bleed",
+    "specialDamage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.4
+  },
+  {
+    "name": "Vowed Blade",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "radiant",
+    "specialDamage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.39
+  },
+  {
+    "name": "Blaze Fury",
+    "type": "melee",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "fire",
+    "specialDamage": 2,
+    "specialRounds": 2,
+    "specialPercentage": 0.36
+  },
+
+  {
+    "name": "Axe of Steel",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Prophecy",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Battleworn",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Liberty",
+    "type": "melee",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Oathbreaker",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "bludgeoning",
+    "image": "image",
+    "special": "breaks",
+    "specialDamage": 2,
+    "specialRounds": 1,
+    "specialPercentage": 0.31
+  },
+  {
+    "name": "Blind Justice",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "image": "image",
+    "special": "bleed",
+    "specialDamage": 2,
+    "specialRounds": 1,
+    "specialPercentage": 0.33
+  },
+  {
+    "name": "Mage Blade",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "slashing",
+    "special": "radiant",
+    "specialDamage": 2,
+    "specialRounds": 2,
+    "specialPercentage": 0.32,
+    "image": "image"
+  },
+  {
+    "name": "Mind Rod",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "bludgeoning",
+    "special": "radiant",
+    "specialDamage": 1,
+    "specialRounds": 3,
+    "specialPercentage": 0.34,
+    "image": "image"
+  },
+  {
+    "name": "Mercy",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 6,
+    "damageType": "slashing",
+    "special": "increased to hit",
+    "specialMeleeToHit": 0.3,
+    "specialRounds": 2,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Justice",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 5,
+    "damageType": "slashing",
+    "special": "bleed",
+    "damage": 2,
+    "specialRounds": 2,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Whisperer",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 7,
+    "damageType": "slashing",
+    "image": "image"
+  },
+  {
+    "name": "Shadow",
+    "type": "melee",
+    "rarity": "uncommon",
+    "additionalDamage": 6,
+    "damageType": "bludgeoning",
+    "special": "necrotic",
+    "damage": 3,
+    "specialRounds": 2,
+    "specialPercentage": 0.42,
+    "image": "image"
+  },
+
+  {
+    "name": "Doom Kaboom",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "explosive",
+    "image": "image"
+  },
+  {
+    "name": "Eclipse",
+    "type": "device",
+    "rarity": "common",
+    "special": "invisibility",
+    "specialRounds": 1,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Penance",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "explosive",
+    "image": "image"
+  },
+  {
+    "name": "Illumina",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Mystery",
+    "type": "explosive",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Destroyer",
+    "type": "explosive",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "explosive",
+    "image": "image"
+  },
+  {
+    "name": "Snowfall",
+    "type": "device",
+    "rarity": "rare",
+    "additionalDamage": 4,
+    "damageType": "cold",
+    "image": "image"
+  },
+  {
+    "name": "Molotov Orb",
+    "type": "device",
+    "rarity": "rare",
+    "additionalDamage": 3,
+    "damageType": "fire",
+    "image": "image"
+  },
+  {
+    "name": "Doom Shadow",
+    "type": "device",
+    "rarity": "rare",
+    "special": "invisibility",
+    "specialRounds": 3,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Soul Orb",
+    "type": "device",
+    "rarity": "rare",
+    "special": "life",
+    "specialRounds": 2,
+    "specialPercentage": 0.42,
+    "health": 3,
+    "image": "image"
+  },
+  {
+    "name": "Omega",
+    "type": "device",
+    "rarity": "rare",
+    "special": "turret",
+    "additionalDamage": 5,
+    "specialRounds": 2,
+    "specialPercentage": 0.42,
+    "image": "image"
+  },
+  {
+    "name": "Tranquillity",
+    "type": "device",
+    "rarity": "rare",
+    "special": "skip",
+    "specialRounds": 2,
+    "specialPercentage": 0.44,
+    "image": "image"
+  },
+  {
+    "name": "Stardust",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Starlight",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Dusk Light",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "necrotic",
+    "image": "image"
+  },
+  {
+    "name": "Glimmer",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Meteor",
+    "type": "explosive",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Laser Sphere",
+    "type": "device",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "auto blaster",
+    "image": "image"
+  },
+  {
+    "name": "Requiem",
+    "type": "device",
+    "rarity": "uncommon",
+    "special": "skip",
+    "specialRounds": 1,
+    "image": "image"
+  },
+  {
+    "name": "Doom Ward",
+    "type": "device",
+    "rarity": "uncommon",
+    "special": "shield",
+    "specialRounds": 1,
+    "specialDefense": 0.2,
+    "specialPercentage": 0.25,
+    "image": "image"
+  },
+  {
+    "name": "Asteroid",
+    "type": "explosive",
+    "rarity": "rare",
+    "additionalDamage": 5,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Skyfall",
+    "type": "explosive",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "radiant",
+    "image": "image"
+  },
+  {
+    "name": "Blazefury",
+    "type": "explosive",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "fire",
+    "image": "image"
+  },
+  {
+    "name": "Serenity",
+    "type": "device",
+    "rarity": "rare",
+    "special": "life",
+    "specialRounds": 2,
+    "specialPercentage": 0.42,
+    "health": 3,
+    "image": "image"
+  },
+  {
+    "name": "Shadowfall",
+    "type": "device",
+    "rarity": "common",
+    "image": "image",
+    "special": "invisibility",
+    "specialRounds": 1,
+    "specialPercentage": 0.3
+  },
+  {
+    "name": "Emberling",
+    "type": "explosive",
+    "rarity": "common",
+    "image": "image",
+    "additionalDamage": 1,
+    "damageType": "fire"
+  },
+  {
+    "name": "Beta",
+    "type": "explosive",
+    "rarity": "common",
+    "image": "image",
+    "additionalDamage": 1,
+    "damageType": "explosive"
+  },
+  {
+    "name": "Mirage",
+    "type": "device",
+    "rarity": "common",
+    "image": "image",
+    "special": "invisibility",
+    "specialRounds": 1,
+    "specialPercentage": 0.27
+  },
+  {
+    "name": "Orb of Power",
+    "type": "device",
+    "rarity": "uncommon",
+    "image": "image",
+    "special": "damage boost",
+    "specialRounds": 2,
+    "specialDamageBoost": 2,
+    "specialPercentage": 0.34
+  },
+  {
+    "name": "Inertia",
+    "type": "device",
+    "rarity": "uncommon",
+    "image": "image",
+    "special": "skip",
+    "specialRounds": 2,
+    "specialPercentage": 0.33
+  },
+  {
+    "name": "Orb of Agony",
+    "type": "device",
+    "rarity": "uncommon",
+    "image": "image",
+    "special": "damage boost",
+    "specialRounds": 2,
+    "specialDamageBoost": 2,
+    "specialPercentage": 0.33
+  },
+  {
+    "name": "Orb of Blessing",
+    "type": "device",
+    "rarity": "uncommon",
+    "image": "image",
+    "special": "damage boost",
+    "specialRounds": 2,
+    "specialDefense": 0.2,
+    "specialPercentage": 0.33
+  },
+  {
+    "name": "Void",
+    "type": "device",
+    "rarity": "rare",
+    "image": "image",
+    "special": "invisibility",
+    "specialRounds": 3,
+    "specialSkip": 1,
+    "specialPercentage": 0.42
+  },
+  {
+    "name": "Desolation Orb",
+    "type": "device",
+    "rarity": "rare",
+    "damageType": "fire",
+    "image": "image",
+    "special": "turret",
+    "specialRounds": 2,
+    "additionalDamage": 5,
+    "specialPercentage": 0.4
+  },
+  {
+    "name": "Labyrinth",
+    "type": "device",
+    "rarity": "rare",
+    "image": "image",
+    "special": "skip",
+    "specialRounds": 3,
+    "specialPercentage": 0.4
+  },
+  {
+    "name": "Pandemonium",
+    "type": "explosive",
+    "rarity": "rare",
+    "damageType": "necrotic",
+    "image": "image",
+    "additionalDamage": 5
+  },
+  {
+    "name": "Doom Guard",
+    "type": "device",
+    "rarity": "common",
+    "specialRounds": 1,
+    "specialDefense": 0.2,
+    "specialPercentage": 0.25,
+    "special": "shield",
+    "image": "image"
+  },
+  {
+    "name": "Disc Bomb",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "explosive",
+    "image": "image"
+  },
+  {
+    "name": "Drone Turret",
+    "type": "device",
+    "rarity": "common",
+    "specialRounds": 1,
+    "additionalDamage": 1,
+    "specialPercentage": 0.25,
+    "special": "turret",
+    "image": "image"
+  },
+  {
+    "name": "Microbot",
+    "type": "device",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "nanites",
+    "image": "image"
+  },
+  {
+    "name": "Homing Beacon",
+    "type": "device",
+    "image": "image",
+    "rarity": "uncommon",
+    "special": "redirect ranged damage",
+    "specialDefense": 0.33,
+    "specialRounds": 1,
+    "specialPercentage": 0.36
+  },
+  {
+    "name": "Equalizer",
+    "type": "device",
+    "image": "image",
+    "rarity": "uncommon",
+    "special": "redirect ranged damage",
+    "specialDefense": 0.22,
+    "specialRounds": 2,
+    "specialPercentage": 0.35
+  },
+  {
+    "name": "Dominance Ring",
+    "type": "device",
+    "image": "image",
+    "rarity": "uncommon",
+    "special": "skip",
+    "specialRounds": 2,
+    "specialPercentage": 0.36
+  },
+  {
+    "name": "Cloak",
+    "type": "device",
+    "image": "image",
+    "rarity": "uncommon",
+    "special": "invisibility",
+    "specialRounds": 2,
+    "specialPercentage": 0.38
+  },
+  {
+    "name": "Doom Beacon",
+    "type": "device",
+    "image": "image",
+    "rarity": "rare",
+    "specialRounds": 3,
+    "specialDefense": 0.35,
+    "specialPercentage": 0.55,
+    "special": "redirect damage"
+  },
+  {
+    "name": "Nanite Bomb",
+    "type": "device",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "nanites",
+    "image": "image"
+  },
+  {
+    "name": "Athanasia",
+    "type": "device",
+    "image": "image",
+    "rarity": "rare",
+    "specialRounds": 3,
+    "health": 3,
+    "specialPercentage": 0.55,
+    "special": "life"
+  },
+  {
+    "name": "Drone Swarm",
+    "type": "device",
+    "rarity": "rare",
+    "additionalDamage": 6,
+    "damageType": "nanites",
+    "image": "image"
+  },
+  {
+    "name": "Atrax",
+    "type": "explosive",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "explosive",
+    "image": "image"
+  },
+  {
+    "name": "Lightning Sphere",
+    "type": "device",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "lightning",
+    "image": "image"
+  },
+  {
+    "name": "Fear Orb",
+    "type": "device",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "special": "skip",
+    "specialRounds": 1,
+    "specialPercentage": 0.3,
+    "image": "image"
+  },
+  {
+    "name": "Fire Blast",
+    "type": "device",
+    "rarity": "common",
+    "additionalDamage": 1,
+    "damageType": "fire",
+    "image": "image"
+  },
+  {
+    "name": "Vanquisher",
+    "type": "explosive",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "explosive",
+    "image": "image"
+  },
+  {
+    "name": "Hell's Bells",
+    "type": "device",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "necrotic",
+    "image": "image"
+  },
+  {
+    "name": "Frost Beam",
+    "type": "device",
+    "rarity": "uncommon",
+    "additionalDamage": 3,
+    "damageType": "cold",
+    "image": "image"
+  },
+  {
+    "name": "Shatter",
+    "type": "device",
+    "rarity": "uncommon",
+    "additionalDamage": 4,
+    "damageType": "lightning",
+    "image": "image"
+  },
+  {
+    "name": "Quickness",
+    "type": "device",
+    "rarity": "rare",
+    "special": "skip",
+    "specialRounds": 2,
+    "specialPercentage": 0.43,
+    "image": "image"
+  },
+  {
+    "name": "Summon",
+    "type": "device",
+    "rarity": "rare",
+    "special": "summon",
+    "specialRounds": 3,
+    "specialPercentage": 0.44,
+    "image": "image"
+  },
+  {
+    "name": "Waterfall",
+    "type": "device",
+    "rarity": "rare",
+    "additionalDamage": 3,
+    "damageType": "water",
+    "special": "skip",
+    "specialRounds": 1,
+    "specialPercentage": 0.4,
+    "image": "image"
+  },
+  {
+    "name": "Scream Orb",
+    "type": "device",
+    "rarity": "rare",
+    "additionalDamage": 2,
+    "damageType": "necrotic",
+    "special": "skip",
+    "specialRounds": 1,
+    "specialPercentage": 0.44,
+    "image": "image"
+  }
+]

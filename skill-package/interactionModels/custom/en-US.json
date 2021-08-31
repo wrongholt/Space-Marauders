@@ -1,0 +1,2036 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "space marauders",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "monsterListHandler",
+          "slots": [],
+          "samples": [
+            "monsters I have encountered",
+            "monsters list",
+            "monster board",
+            "all the monsters",
+            "what monsters I have seen",
+            "monsters I've seen",
+            "monsters I've encountered",
+            "things I have killed"
+          ]
+        },
+        {
+          "name": "bountyListHandler",
+          "slots": [],
+          "samples": [
+            "job board",
+            "bounty board",
+            "job list",
+            "bounty list",
+            "jobs available",
+            "bounties available",
+            "jobs here",
+            "bounties here"
+          ]
+        },
+        {
+          "name": "monsterSelectionHandler",
+          "slots": [
+            {
+              "name": "monsters",
+              "type": "monsters"
+            },
+            {
+              "name": "difficulty",
+              "type": "difficulty"
+            }
+          ],
+          "samples": [
+            "{monsters} {difficulty}",
+            "{difficulty} {monsters}",
+            "I choose {monsters} {difficulty}",
+            "lets do {monsters} {difficulty}",
+            "Lets hunt {monsters} {difficulty}",
+            "I will pick {monsters} {difficulty}",
+            "I will pick the {monsters} {difficulty}"
+          ]
+        },
+        {
+          "name": "BattleHandlerIntent",
+          "slots": [
+            {
+              "name": "theMove",
+              "type": "theMoves"
+            }
+          ],
+          "samples": ["{theMove}"]
+        },
+        {
+          "name": "guessWordForRobHandler",
+          "slots": [
+            {
+              "name": "theWord",
+              "type": "words"
+            }
+          ],
+          "samples": ["{theWord}"]
+        },
+        {
+          "name": "guessLetterForRobHandler",
+          "slots": [
+            {
+              "name": "theLetter",
+              "type": "letters"
+            }
+          ],
+          "samples": ["{theLetter}"]
+        },
+        {
+          "name": "RobHandlerIntent",
+          "slots": [],
+          "samples": [
+            "start the hack",
+            "steal",
+            "rob",
+            "let's hack",
+            "let's steal",
+            "rob her",
+            "rob him",
+            "rob them",
+            "steal from them",
+            "steal from her",
+            "steal from him"
+          ]
+        },
+        {
+          "name": "openBoxHandler",
+          "slots": [],
+          "samples": ["open box", "get box", "open crate"]
+        },
+        {
+          "name": "factionPickHandler",
+          "slots": [
+            {
+              "name": "theFaction",
+              "type": "factions"
+            }
+          ],
+          "samples": ["{theFaction}"]
+        },
+        {
+          "name": "factionChosenHandler",
+          "slots": [
+            {
+              "name": "theFaction",
+              "type": "factions"
+            }
+          ],
+          "samples": [
+            "I choose {theFaction}",
+            "I pick {theFaction}",
+            "I select {theFaction}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "monsters",
+          "values": [
+            {
+              "name": {
+                "value": "Red Dragon",
+                "synonyms": ["maroon dragon", "red dragoon", "red dragan"]
+              }
+            },
+            {
+              "name": {
+                "value": "Green Dragon",
+                "synonyms": ["lime dragon", "green dragoon", "green dragan"]
+              }
+            },
+            {
+              "name": {
+                "value": "Blue Dragon",
+                "synonyms": ["navy dragon", "blue dragoon", "blue dragan"]
+              }
+            },
+            {
+              "name": {
+                "value": "Gollageth",
+                "synonyms": ["Gallageth", "Gollowgeth", "Gallowgeth"]
+              }
+            },
+            {
+              "name": {
+                "value": "Haelerion",
+                "synonyms": ["Halaron", "Haeleron", "Healeron", "Healerion"]
+              }
+            },
+            {
+              "name": {
+                "value": "Hive",
+                "synonyms": ["Highev", "Hi ev", "Hi ve"]
+              }
+            },
+            {
+              "name": {
+                "value": "Suinkin",
+                "synonyms": ["Sunkin", "Suinken", "Sunken"]
+              }
+            },
+            {
+              "name": {
+                "value": "Rapturous",
+                "synonyms": ["Raptor", "Raptourous", "Raptarus"]
+              }
+            },
+            {
+              "name": {
+                "value": "Triplets",
+                "synonyms": ["The Triplets", "Tripels", "Triples"]
+              }
+            },
+            {
+              "name": {
+                "value": "Wendigo"
+              }
+            },
+            {
+              "name": {
+                "value": "Space Witch"
+              }
+            },
+            {
+              "name": {
+                "value": "Bodak"
+              }
+            },
+            {
+              "name": {
+                "value": "Bone Devil"
+              }
+            },
+            {
+              "name": {
+                "value": "Chimera"
+              }
+            },
+            {
+              "name": {
+                "value": "Dretch"
+              }
+            },
+            {
+              "name": {
+                "value": "Fire Beetle"
+              }
+            },
+            {
+              "name": {
+                "value": "Cockatrice"
+              }
+            },
+            {
+              "name": {
+                "value": "Cloaker"
+              }
+            },
+            {
+              "name": {
+                "value": "Dire Badger"
+              }
+            },
+            {
+              "name": {
+                "value": "Ethereal Marauder"
+              }
+            },
+            {
+              "name": {
+                "value": "Ethereal Filcher"
+              }
+            },
+            {
+              "name": {
+                "value": "Earth Elemental"
+              }
+            },
+            {
+              "name": {
+                "value": "Howler"
+              }
+            },
+            {
+              "name": {
+                "value": "Mind Flayer"
+              }
+            },
+            {
+              "name": {
+                "value": "Nalfeshnee"
+              }
+            },
+            {
+              "name": {
+                "value": "Ogre"
+              }
+            },
+            {
+              "name": {
+                "value": "Stirge"
+              }
+            },
+            {
+              "name": {
+                "value": "Azer"
+              }
+            },
+            {
+              "name": {
+                "value": "Dire Ape"
+              }
+            },
+            {
+              "name": {
+                "value": "Allosaurus"
+              }
+            },
+            {
+              "name": {
+                "value": "Rust Monster"
+              }
+            },
+            {
+              "name": {
+                "value": "Bomber Beetle"
+              }
+            },
+            {
+              "name": {
+                "value": "Demon"
+              }
+            },
+            {
+              "name": {
+                "value": "Devil"
+              }
+            },
+            {
+              "name": {
+                "value": "Beholder"
+              }
+            },
+            {
+              "name": {
+                "value": "Gargoyle"
+              }
+            },
+            {
+              "name": {
+                "value": "Giant Worm"
+              }
+            },
+            {
+              "name": {
+                "value": "Mummy"
+              }
+            },
+            {
+              "name": {
+                "value": "Giant Mushroom"
+              }
+            },
+            {
+              "name": {
+                "value": "Giant Plant"
+              }
+            },
+            {
+              "name": {
+                "value": "Rock Elemental"
+              }
+            },
+            {
+              "name": {
+                "value": "Giant Spider"
+              }
+            },
+            {
+              "name": {
+                "value": "Ooze"
+              }
+            },
+            {
+              "name": {
+                "value": "Serpent Clan"
+              }
+            },
+            {
+              "name": {
+                "value": "Wrath"
+              }
+            },
+            {
+              "name": {
+                "value": "Mage"
+              }
+            },
+            {
+              "name": {
+                "value": "Blade Master"
+              }
+            },
+            {
+              "name": {
+                "value": "Agent"
+              }
+            },
+            {
+              "name": {
+                "value": "Ranger"
+              }
+            },
+            {
+              "name": {
+                "value": "Psycho"
+              }
+            },
+            {
+              "name": {
+                "value": "Space Pirate"
+              }
+            }
+          ]
+        },
+        {
+          "name": "difficulty",
+          "values": [
+            {
+              "name": {
+                "value": "easy",
+                "synonyms": ["simple"]
+              }
+            },
+            {
+              "name": {
+                "value": "normal",
+                "synonyms": ["regular"]
+              }
+            },
+            {
+              "name": {
+                "value": "hard",
+                "synonyms": ["difficult"]
+              }
+            },
+            {
+              "name": {
+                "value": "very hard",
+                "synonyms": ["vary hard", "very difficult"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "factions",
+          "values": [
+            {
+              "name": {
+                "value": "anarkists",
+                "synonyms": ["anarchy", "anarchist", "anarchists", "anarchs"]
+              }
+            },
+            {
+              "name": {
+                "value": "united stars",
+                "synonyms": ["united", "united star", "u.s.", "united states"]
+              }
+            },
+            {
+              "name": {
+                "value": "animal clan",
+                "synonyms": ["animal group", "animal", "a.c.", "animal clans"]
+              }
+            },
+            {
+              "name": {
+                "value": "cyberlites",
+                "synonyms": [
+                  "cyber lites",
+                  "cyber",
+                  "cyber lights",
+                  "cyber lite",
+                  "cyber light"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pioneers",
+                "synonyms": ["pioneer"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "theMoves",
+          "values": [
+            {
+              "name": {
+                "value": "melee",
+                "synonyms": ["slot two", "two", "hit", "kick"]
+              }
+            },
+            {
+              "name": {
+                "value": "ranged",
+                "synonyms": ["slot one", "one", "shoot", "fire"]
+              }
+            },
+            {
+              "name": {
+                "value": "item",
+                "synonyms": ["slot three", "three", "throw", "use item"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "words",
+          "values": [
+            {
+              "name": {
+                "value": "password"
+              }
+            },
+            {
+              "name": {
+                "value": "space"
+              }
+            },
+            {
+              "name": {
+                "value": "outdoors"
+              }
+            },
+            {
+              "name": {
+                "value": "star"
+              }
+            },
+            {
+              "name": {
+                "value": "moon"
+              }
+            },
+            {
+              "name": {
+                "value": "sun"
+              }
+            },
+            {
+              "name": {
+                "value": "comet"
+              }
+            },
+            {
+              "name": {
+                "value": "astroid"
+              }
+            },
+            {
+              "name": {
+                "value": "meteoroid"
+              }
+            },
+            {
+              "name": {
+                "value": "rocks"
+              }
+            },
+            {
+              "name": {
+                "value": "red planet"
+              }
+            },
+            {
+              "name": {
+                "value": "terra"
+              }
+            },
+            {
+              "name": {
+                "value": "earth"
+              }
+            },
+            {
+              "name": {
+                "value": "saturn"
+              }
+            },
+            {
+              "name": {
+                "value": "venus"
+              }
+            },
+            {
+              "name": {
+                "value": "mars"
+              }
+            },
+            {
+              "name": {
+                "value": "pluto"
+              }
+            },
+            {
+              "name": {
+                "value": "mercury"
+              }
+            },
+            {
+              "name": {
+                "value": "jupiter"
+              }
+            },
+            {
+              "name": {
+                "value": "uranus"
+              }
+            },
+            {
+              "name": {
+                "value": "neptune"
+              }
+            },
+            {
+              "name": {
+                "value": "grass"
+              }
+            },
+            {
+              "name": {
+                "value": "tree"
+              }
+            },
+            {
+              "name": {
+                "value": "flower"
+              }
+            },
+            {
+              "name": {
+                "value": "vegetable"
+              }
+            },
+            {
+              "name": {
+                "value": "fruit"
+              }
+            },
+            {
+              "name": {
+                "value": "wild life"
+              }
+            },
+            {
+              "name": {
+                "value": "animal"
+              }
+            },
+            {
+              "name": {
+                "value": "hack"
+              }
+            },
+            {
+              "name": {
+                "value": "hacker"
+              }
+            },
+            {
+              "name": {
+                "value": "worm"
+              }
+            },
+            {
+              "name": {
+                "value": "spoofing"
+              }
+            },
+            {
+              "name": {
+                "value": "adware"
+              }
+            },
+            {
+              "name": {
+                "value": "encryption"
+              }
+            },
+            {
+              "name": {
+                "value": "malware"
+              }
+            },
+            {
+              "name": {
+                "value": "phishing"
+              }
+            },
+            {
+              "name": {
+                "value": "brute force"
+              }
+            },
+            {
+              "name": {
+                "value": "crack"
+              }
+            },
+            {
+              "name": {
+                "value": "database"
+              }
+            },
+            {
+              "name": {
+                "value": "coder"
+              }
+            },
+            {
+              "name": {
+                "value": "decrypt"
+              }
+            },
+            {
+              "name": {
+                "value": "processor"
+              }
+            },
+            {
+              "name": {
+                "value": "memory"
+              }
+            },
+            {
+              "name": {
+                "value": "graphics"
+              }
+            },
+            {
+              "name": {
+                "value": "render"
+              }
+            },
+            {
+              "name": {
+                "value": "audio"
+              }
+            },
+            {
+              "name": {
+                "value": "speaker"
+              }
+            },
+            {
+              "name": {
+                "value": "screen"
+              }
+            },
+            {
+              "name": {
+                "value": "microphone"
+              }
+            },
+            {
+              "name": {
+                "value": "developer"
+              }
+            }
+          ]
+        },
+        {
+          "name": "letters",
+          "values": [
+            {
+              "name": {
+                "value": "z",
+                "synonyms": ["z.", "zee"]
+              }
+            },
+            {
+              "name": {
+                "value": "y",
+                "synonyms": ["wye", "y.", "why"]
+              }
+            },
+            {
+              "name": {
+                "value": "x",
+                "synonyms": ["x."]
+              }
+            },
+            {
+              "name": {
+                "value": "w",
+                "synonyms": ["w."]
+              }
+            },
+            {
+              "name": {
+                "value": "v",
+                "synonyms": ["v.", "vee"]
+              }
+            },
+            {
+              "name": {
+                "value": "u",
+                "synonyms": ["u.", "yew", "ewe", "you"]
+              }
+            },
+            {
+              "name": {
+                "value": "t",
+                "synonyms": ["t.", "tea", "tee"]
+              }
+            },
+            {
+              "name": {
+                "value": "s",
+                "synonyms": ["s.", "ess"]
+              }
+            },
+            {
+              "name": {
+                "value": "r",
+                "synonyms": ["r.", "are", "arr"]
+              }
+            },
+            {
+              "name": {
+                "value": "q",
+                "synonyms": ["q.", "cue", "queue"]
+              }
+            },
+            {
+              "name": {
+                "value": "p",
+                "synonyms": ["p.", "pea", "pee"]
+              }
+            },
+            {
+              "name": {
+                "value": "o",
+                "synonyms": ["o.", "oh"]
+              }
+            },
+            {
+              "name": {
+                "value": "n",
+                "synonyms": ["n.", "en"]
+              }
+            },
+            {
+              "name": {
+                "value": "m",
+                "synonyms": ["m.", "em"]
+              }
+            },
+            {
+              "name": {
+                "value": "l",
+                "synonyms": ["l.", "ell"]
+              }
+            },
+            {
+              "name": {
+                "value": "k",
+                "synonyms": ["k.", "kay"]
+              }
+            },
+            {
+              "name": {
+                "value": "j",
+                "synonyms": ["jay", "j."]
+              }
+            },
+            {
+              "name": {
+                "value": "i",
+                "synonyms": ["hi", "aye", "i.", "eye"]
+              }
+            },
+            {
+              "name": {
+                "value": "h",
+                "synonyms": ["h.", "ach"]
+              }
+            },
+            {
+              "name": {
+                "value": "g",
+                "synonyms": ["g.", "gee"]
+              }
+            },
+            {
+              "name": {
+                "value": "f",
+                "synonyms": ["f.", "eff"]
+              }
+            },
+            {
+              "name": {
+                "value": "e",
+                "synonyms": ["e.", "ee"]
+              }
+            },
+            {
+              "name": {
+                "value": "d",
+                "synonyms": ["d.", "dee"]
+              }
+            },
+            {
+              "name": {
+                "value": "c",
+                "synonyms": ["c.", "see", "sea"]
+              }
+            },
+            {
+              "name": {
+                "value": "b",
+                "synonyms": ["b.", "bee"]
+              }
+            },
+            {
+              "name": {
+                "value": "a",
+                "synonyms": ["a.", "ae"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "inventory",
+          "values": [
+            {
+              "name": {
+                "value": "Red"
+              }
+            },
+            {
+              "name": {
+                "value": "Flames"
+              }
+            },
+            {
+              "name": {
+                "value": "Doom"
+              }
+            },
+            {
+              "name": {
+                "value": "Proud"
+              }
+            },
+            {
+              "name": {
+                "value": "Prudence"
+              }
+            },
+            {
+              "name": {
+                "value": "Bandit's Revolver"
+              }
+            },
+            {
+              "name": {
+                "value": "Vindicator"
+              }
+            },
+            {
+              "name": {
+                "value": "War Blaster"
+              }
+            },
+            {
+              "name": {
+                "value": "Lazarus"
+              }
+            },
+            {
+              "name": {
+                "value": "Lightning Rifle"
+              }
+            },
+            {
+              "name": {
+                "value": "Ravager"
+              }
+            },
+            {
+              "name": {
+                "value": "Soul Devourer"
+              }
+            },
+            {
+              "name": {
+                "value": "Red and Gold"
+              }
+            },
+            {
+              "name": {
+                "value": "Icer"
+              }
+            },
+            {
+              "name": {
+                "value": "Piety"
+              }
+            },
+            {
+              "name": {
+                "value": "Midnight"
+              }
+            },
+            {
+              "name": {
+                "value": "Starfall"
+              }
+            },
+            {
+              "name": {
+                "value": "Eveningstar"
+              }
+            },
+            {
+              "name": {
+                "value": "Storm Forged"
+              }
+            },
+            {
+              "name": {
+                "value": "Oblivion"
+              }
+            },
+            {
+              "name": {
+                "value": "War Heart"
+              }
+            },
+            {
+              "name": {
+                "value": "Destiny's Rifle"
+              }
+            },
+            {
+              "name": {
+                "value": "Cataclysm"
+              }
+            },
+            {
+              "name": {
+                "value": "Big Bertha"
+              }
+            },
+            {
+              "name": {
+                "value": "Howling Bronzed Rifle"
+              }
+            },
+            {
+              "name": {
+                "value": "Mighty Mouse"
+              }
+            },
+            {
+              "name": {
+                "value": "Ironbark"
+              }
+            },
+            {
+              "name": {
+                "value": "Typhoon"
+              }
+            },
+            {
+              "name": {
+                "value": "Prideful Boomstick"
+              }
+            },
+            {
+              "name": {
+                "value": "Chaos"
+              }
+            },
+            {
+              "name": {
+                "value": "Pink Mist"
+              }
+            },
+            {
+              "name": {
+                "value": "Tribunal"
+              }
+            },
+            {
+              "name": {
+                "value": "Frenzied Titanium Blaster"
+              }
+            },
+            {
+              "name": {
+                "value": "Maneater"
+              }
+            },
+            {
+              "name": {
+                "value": "Rage"
+              }
+            },
+            {
+              "name": {
+                "value": "Warmonger"
+              }
+            },
+            {
+              "name": {
+                "value": "Glinting Repeater"
+              }
+            },
+            {
+              "name": {
+                "value": "Sprocket"
+              }
+            },
+            {
+              "name": {
+                "value": "Chromed Repeater"
+              }
+            },
+            {
+              "name": {
+                "value": "Pulse"
+              }
+            },
+            {
+              "name": {
+                "value": "Blackout"
+              }
+            },
+            {
+              "name": {
+                "value": "Vicious"
+              }
+            },
+            {
+              "name": {
+                "value": "Exile"
+              }
+            },
+            {
+              "name": {
+                "value": "Toots"
+              }
+            },
+            {
+              "name": {
+                "value": "Punisher"
+              }
+            },
+            {
+              "name": {
+                "value": "Disturbance"
+              }
+            },
+            {
+              "name": {
+                "value": "Widow Maker"
+              }
+            },
+            {
+              "name": {
+                "value": "Headhunter"
+              }
+            },
+            {
+              "name": {
+                "value": "Legacy"
+              }
+            },
+            {
+              "name": {
+                "value": "Echo"
+              }
+            },
+            {
+              "name": {
+                "value": "Dream"
+              }
+            },
+            {
+              "name": {
+                "value": "Patriot"
+              }
+            },
+            {
+              "name": {
+                "value": "Lightning Iron Revolver"
+              }
+            },
+            {
+              "name": {
+                "value": "Iron Patriot"
+              }
+            },
+            {
+              "name": {
+                "value": "Guardian"
+              }
+            },
+            {
+              "name": {
+                "value": "Commando Repeater"
+              }
+            },
+            {
+              "name": {
+                "value": "Furious Ironbark Blunderbuss"
+              }
+            },
+            {
+              "name": {
+                "value": "Big Daddy"
+              }
+            },
+            {
+              "name": {
+                "value": "Nirvana"
+              }
+            },
+            {
+              "name": {
+                "value": "Apocalypse"
+              }
+            },
+            {
+              "name": {
+                "value": "Blood"
+              }
+            },
+            {
+              "name": {
+                "value": "Interrogator"
+              }
+            },
+            {
+              "name": {
+                "value": "Space Rapier"
+              }
+            },
+            {
+              "name": {
+                "value": "Whirl Lash"
+              }
+            },
+            {
+              "name": {
+                "value": "Wrath"
+              }
+            },
+            {
+              "name": {
+                "value": "Fate"
+              }
+            },
+            {
+              "name": {
+                "value": "Truth Tearer"
+              }
+            },
+            {
+              "name": {
+                "value": "Snare Lash"
+              }
+            },
+            {
+              "name": {
+                "value": "Massacre"
+              }
+            },
+            {
+              "name": {
+                "value": "Witherbrand"
+              }
+            },
+            {
+              "name": {
+                "value": "Laser Staff"
+              }
+            },
+            {
+              "name": {
+                "value": "Oath Keeper"
+              }
+            },
+            {
+              "name": {
+                "value": "Peacesong"
+              }
+            },
+            {
+              "name": {
+                "value": "Dawn"
+              }
+            },
+            {
+              "name": {
+                "value": "Drillmaster"
+              }
+            },
+            {
+              "name": {
+                "value": "Ultra Smasher"
+              }
+            },
+            {
+              "name": {
+                "value": "Earthsong"
+              }
+            },
+            {
+              "name": {
+                "value": "Mighty Axe"
+              }
+            },
+            {
+              "name": {
+                "value": "Space Quaker"
+              }
+            },
+            {
+              "name": {
+                "value": "Frostward"
+              }
+            },
+            {
+              "name": {
+                "value": "Solarsong"
+              }
+            },
+            {
+              "name": {
+                "value": "vengeance razor"
+              }
+            },
+            {
+              "name": {
+                "value": "Phantomsong"
+              }
+            },
+            {
+              "name": {
+                "value": "Nexus"
+              }
+            },
+            {
+              "name": {
+                "value": "Ash"
+              }
+            },
+            {
+              "name": {
+                "value": "Bulldog"
+              }
+            },
+            {
+              "name": {
+                "value": "Plant Breaker"
+              }
+            },
+            {
+              "name": {
+                "value": "Netherlight"
+              }
+            },
+            {
+              "name": {
+                "value": "Pounder of the Depth"
+              }
+            },
+            {
+              "name": {
+                "value": "World Slayer"
+              }
+            },
+            {
+              "name": {
+                "value": "Oct-A-Sword"
+              }
+            },
+            {
+              "name": {
+                "value": "Rock Quaker"
+              }
+            },
+            {
+              "name": {
+                "value": "Fiery Katana"
+              }
+            },
+            {
+              "name": {
+                "value": "Wolf"
+              }
+            },
+            {
+              "name": {
+                "value": "Avenger"
+              }
+            },
+            {
+              "name": {
+                "value": "Alpha"
+              }
+            },
+            {
+              "name": {
+                "value": "Sting"
+              }
+            },
+            {
+              "name": {
+                "value": "Net Staff"
+              }
+            },
+            {
+              "name": {
+                "value": "Celeste"
+              }
+            },
+            {
+              "name": {
+                "value": "Arm Blades"
+              }
+            },
+            {
+              "name": {
+                "value": "Lifedrinker"
+              }
+            },
+            {
+              "name": {
+                "value": "Electro Gloves"
+              }
+            },
+            {
+              "name": {
+                "value": "Neo Shocker"
+              }
+            },
+            {
+              "name": {
+                "value": "Soulkeeper"
+              }
+            },
+            {
+              "name": {
+                "value": "Devourer"
+              }
+            },
+            {
+              "name": {
+                "value": "Soul Reaper"
+              }
+            },
+            {
+              "name": {
+                "value": "Vowed Blade"
+              }
+            },
+            {
+              "name": {
+                "value": "Blaze Fury"
+              }
+            },
+            {
+              "name": {
+                "value": "Axe of Steel"
+              }
+            },
+            {
+              "name": {
+                "value": "Prophecy"
+              }
+            },
+            {
+              "name": {
+                "value": "Battleworn"
+              }
+            },
+            {
+              "name": {
+                "value": "Liberty"
+              }
+            },
+            {
+              "name": {
+                "value": "Oathbreaker"
+              }
+            },
+            {
+              "name": {
+                "value": "Blind Justice"
+              }
+            },
+            {
+              "name": {
+                "value": "Mage Blade"
+              }
+            },
+            {
+              "name": {
+                "value": "Mind Rod"
+              }
+            },
+            {
+              "name": {
+                "value": "Mercy"
+              }
+            },
+            {
+              "name": {
+                "value": "Justice"
+              }
+            },
+            {
+              "name": {
+                "value": "Whisperer"
+              }
+            },
+            {
+              "name": {
+                "value": "Shadow"
+              }
+            },
+            {
+              "name": {
+                "value": "Doom Kaboom"
+              }
+            },
+            {
+              "name": {
+                "value": "Eclipse"
+              }
+            },
+            {
+              "name": {
+                "value": "Penance"
+              }
+            },
+            {
+              "name": {
+                "value": "Illumina"
+              }
+            },
+            {
+              "name": {
+                "value": "Mystery"
+              }
+            },
+            {
+              "name": {
+                "value": "Destroyer"
+              }
+            },
+            {
+              "name": {
+                "value": "Snowfall"
+              }
+            },
+            {
+              "name": {
+                "value": "Molotov Orb"
+              }
+            },
+            {
+              "name": {
+                "value": "Doom Shadow"
+              }
+            },
+            {
+              "name": {
+                "value": "Soul Orb"
+              }
+            },
+            {
+              "name": {
+                "value": "Omega"
+              }
+            },
+            {
+              "name": {
+                "value": "Tranquillity"
+              }
+            },
+            {
+              "name": {
+                "value": "Stardust"
+              }
+            },
+            {
+              "name": {
+                "value": "Starlight"
+              }
+            },
+            {
+              "name": {
+                "value": "Dusk Light"
+              }
+            },
+            {
+              "name": {
+                "value": "Glimmer"
+              }
+            },
+            {
+              "name": {
+                "value": "Meteor"
+              }
+            },
+            {
+              "name": {
+                "value": "Laser Sphere"
+              }
+            },
+            {
+              "name": {
+                "value": "Requiem"
+              }
+            },
+            {
+              "name": {
+                "value": "Doom Ward"
+              }
+            },
+            {
+              "name": {
+                "value": "Asteroid"
+              }
+            },
+            {
+              "name": {
+                "value": "Skyfall"
+              }
+            },
+            {
+              "name": {
+                "value": "Blazefury"
+              }
+            },
+            {
+              "name": {
+                "value": "Serenity"
+              }
+            },
+            {
+              "name": {
+                "value": "Shadowfall"
+              }
+            },
+            {
+              "name": {
+                "value": "Emberling"
+              }
+            },
+            {
+              "name": {
+                "value": "Beta"
+              }
+            },
+            {
+              "name": {
+                "value": "Mirage"
+              }
+            },
+            {
+              "name": {
+                "value": "Orb of Power"
+              }
+            },
+            {
+              "name": {
+                "value": "Inertia"
+              }
+            },
+            {
+              "name": {
+                "value": "Orb of Agony"
+              }
+            },
+            {
+              "name": {
+                "value": "Orb of Blessing"
+              }
+            },
+            {
+              "name": {
+                "value": "Void"
+              }
+            },
+            {
+              "name": {
+                "value": "Desolation Orb"
+              }
+            },
+            {
+              "name": {
+                "value": "Labyrinth"
+              }
+            },
+            {
+              "name": {
+                "value": "Pandemonium"
+              }
+            },
+            {
+              "name": {
+                "value": "Doom Guard"
+              }
+            },
+            {
+              "name": {
+                "value": "Disc Bomb"
+              }
+            },
+            {
+              "name": {
+                "value": "Drone Turret"
+              }
+            },
+            {
+              "name": {
+                "value": "Microbot"
+              }
+            },
+            {
+              "name": {
+                "value": "Homing Beacon"
+              }
+            },
+            {
+              "name": {
+                "value": "Equalizer"
+              }
+            },
+            {
+              "name": {
+                "value": "Dominance Ring"
+              }
+            },
+            {
+              "name": {
+                "value": "Cloak"
+              }
+            },
+            {
+              "name": {
+                "value": "Doom Beacon"
+              }
+            },
+            {
+              "name": {
+                "value": "Nanite Bomb"
+              }
+            },
+            {
+              "name": {
+                "value": "Athanasia"
+              }
+            },
+            {
+              "name": {
+                "value": "Drone Swarm"
+              }
+            },
+            {
+              "name": {
+                "value": "Atrax"
+              }
+            },
+            {
+              "name": {
+                "value": "Lightning Sphere"
+              }
+            },
+            {
+              "name": {
+                "value": "Fear Orb"
+              }
+            },
+            {
+              "name": {
+                "value": "Fire Blast"
+              }
+            },
+            {
+              "name": {
+                "value": "Vanquisher"
+              }
+            },
+            {
+              "name": {
+                "value": "Hell's Bells"
+              }
+            },
+            {
+              "name": {
+                "value": "Frost Beam"
+              }
+            },
+            {
+              "name": {
+                "value": "Shatter"
+              }
+            },
+            {
+              "name": {
+                "value": "Quickness"
+              }
+            },
+            {
+              "name": {
+                "value": "Summon"
+              }
+            },
+            {
+              "name": {
+                "value": "Waterfall"
+              }
+            },
+            {
+              "name": {
+                "value": "Scream Orb"
+              }
+            }
+          ]
+        },
+        {
+          "name": "damageType",
+          "values": [
+            {
+              "name": {
+                "value": "blaster"
+              }
+            },
+            {
+              "name": {
+                "value": "fire"
+              }
+            },
+            {
+              "name": {
+                "value": "shotgun"
+              }
+            },
+            {
+              "name": {
+                "value": "rifle"
+              }
+            },
+            {
+              "name": {
+                "value": "revolver"
+              }
+            },
+            {
+              "name": {
+                "value": "automatic rifle"
+              }
+            },
+            {
+              "name": {
+                "value": "cold"
+              }
+            },
+            {
+              "name": {
+                "value": "railgun"
+              }
+            },
+            {
+              "name": {
+                "value": "auto blaster"
+              }
+            },
+            {
+              "name": {
+                "value": "slashing"
+              }
+            },
+            {
+              "name": {
+                "value": "piercing"
+              }
+            },
+            {
+              "name": {
+                "value": "bludgeoning"
+              }
+            },
+            {
+              "name": {
+                "value": "explosive"
+              }
+            },
+            {
+              "name": {
+                "value": "radiant"
+              }
+            },
+            {
+              "name": {
+                "value": "necrotic"
+              }
+            },
+            {
+              "name": {
+                "value": "nanites"
+              }
+            },
+            {
+              "name": {
+                "value": "lightning"
+              }
+            },
+            {
+              "name": {
+                "value": "water"
+              }
+            }
+          ]
+        },
+        {
+          "name": "specialType",
+          "values": [
+            {
+              "name": {
+                "value": "acid"
+              }
+            },
+            {
+              "name": {
+                "value": "lightning"
+              }
+            },
+            {
+              "name": {
+                "value": "bleed"
+              }
+            },
+            {
+              "name": {
+                "value": "cold"
+              }
+            },
+            {
+              "name": {
+                "value": "radiant"
+              }
+            },
+            {
+              "name": {
+                "value": "necrotic"
+              }
+            },
+            {
+              "name": {
+                "value": "blind"
+              }
+            },
+            {
+              "name": {
+                "value": "shrapnel"
+              }
+            },
+            {
+              "name": {
+                "value": "fire"
+              }
+            },
+            {
+              "name": {
+                "value": "life"
+              }
+            },
+            {
+              "name": {
+                "value": "breaks"
+              }
+            },
+            {
+              "name": {
+                "value": "increased to hit"
+              }
+            },
+            {
+              "name": {
+                "value": "invisibility"
+              }
+            },
+            {
+              "name": {
+                "value": "turret"
+              }
+            },
+            {
+              "name": {
+                "value": "skip"
+              }
+            },
+            {
+              "name": {
+                "value": "shield"
+              }
+            },
+            {
+              "name": {
+                "value": "damage boost"
+              }
+            },
+            {
+              "name": {
+                "value": "redirect ranged damage"
+              }
+            },
+            {
+              "name": {
+                "value": "redirect damage"
+              }
+            },
+            {
+              "name": {
+                "value": "summon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

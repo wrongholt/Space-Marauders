@@ -1,0 +1,2016 @@
+{
+  "slotOne": {
+    "Anarkists": {
+      "common": [
+        {
+          "name": "Red",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Red.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Flames",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "fire",
+          "special": "fire",
+          "specialDamage": 1,
+          "specialRounds": 1,
+          "specialPercentage": 0.1,
+          "image": "Flames.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Doom",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "shotgun",
+          "image": "Doom.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Proud",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "shotgun",
+          "image": "Proud.jpg",
+          "faction": "Anarkists"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Prudence",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "rifle",
+          "image": "Prudence.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Bandit's Revolver",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "revolver",
+          "image": "Bandit's Revolver.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Vindicator",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "rifle",
+          "image": "Vindicator.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "War Blaster",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "blaster",
+          "image": "War Blaster.jpg",
+          "faction": "Anarkists"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Lazarus",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "automatic rifle",
+          "special": "acid",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.38,
+          "image": "Lazarus.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Lightning Rifle",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "rifle",
+          "special": "lightning",
+          "specialDamage": 2,
+          "specialRounds": 3,
+          "specialPercentage": 0.32,
+          "image": "Lightning Rifle.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Ravager",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 7,
+          "damageType": "blaster",
+          "image": "Ravager.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Devourer",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "automatic rifle",
+          "special": "bleed",
+          "specialDamage": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.39,
+          "image": "Devourer.jpg",
+          "faction": "Anarkists"
+        }
+      ]
+    },
+    "United Stars": {
+      "common": [
+        {
+          "name": "Red and Gold",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Red and Gold.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Icer",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "cold",
+          "image": "Icer.jpg",
+          "special": "cold",
+          "specialSkip": 1,
+          "specialRounds": 1,
+          "specialPercentage": 0.1,
+          "faction": "United Stars"
+        },
+        {
+          "name": "Piety",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "rifle",
+          "image": "Piety.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Midnight",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Midnight.jpg",
+          "faction": "United Stars"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Starfall",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "blaster",
+          "special": "radiant",
+          "specialRounds": 1,
+          "specialDamage": 2,
+          "specialPercentage": 0.3,
+          "image": "Starfall.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Eveningstar",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "blaster",
+          "special": "radiant",
+          "specialRounds": 1,
+          "specialDamage": 2,
+          "specialPercentage": 0.28,
+          "image": "Eveningstar.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Storm Forged",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "blaster",
+          "special": "lightning",
+          "specialRounds": 1,
+          "specialDamage": 3,
+          "specialPercentage": 0.33,
+          "image": "Storm Forged.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Oblivion",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "blaster",
+          "special": "necrotic",
+          "specialRounds": 2,
+          "specialDamage": 2,
+          "specialPercentage": 0.31,
+          "image": "Oblivion.jpg",
+          "faction": "United Stars"
+        }
+      ],
+      "rare": [
+        {
+          "name": "War Heart",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "rifle",
+          "special": "bleed",
+          "specialRounds": 2,
+          "specialDamage": 3,
+          "specialPercentage": 0.45,
+          "image": "War Heart.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Destiny's Rifle",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "rifle",
+          "special": "bleed",
+          "specialRounds": 2,
+          "specialDamage": 2,
+          "specialPercentage": 0.45,
+          "image": "Destinys Rifle.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Cataclysm",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "automatic rifle",
+          "special": "bleed",
+          "specialRounds": 3,
+          "specialDamage": 2,
+          "specialPercentage": 0.42,
+          "image": "Cataclysm.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Big Bertha",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "railgun",
+          "special": "lightning",
+          "specialRounds": 2,
+          "specialDamage": 3,
+          "specialPercentage": 0.38,
+          "image": "Big Bertha.jpg",
+          "faction": "United Stars"
+        }
+      ]
+    },
+    "Animal Clan": {
+      "common": [
+        {
+          "name": "Howling Bronzed Rifle",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "rifle",
+          "image": "Howling Bronzed Rifle.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Mighty Mouse",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Mighty Mouse.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Ironbark",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Ironbark.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Typhoon",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 2,
+          "damageType": "shotgun",
+          "image": "Typhoon.jpg",
+          "faction": "Animal Clan"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Prideful Boomstick",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "shotgun",
+          "image": "Prideful Boomstick.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Chaos",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "shotgun",
+          "special": "bleed",
+          "specialRounds": 2,
+          "specialDamage": 2,
+          "specialPercentage": 0.26,
+          "image": "Chaos.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Pink Mist",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "shotgun",
+          "special": "bleed",
+          "specialRounds": 1,
+          "specialDamage": 4,
+          "specialPercentage": 0.32,
+          "image": "Pink Mist.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Tribunal",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "blaster",
+          "image": "Tribunal.jpg",
+          "faction": "Animal Clan"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Frenzied Titanium Blaster",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "blaster",
+          "image": "Frenzied Titanium Blaster.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Maneater",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "automatic rifle",
+          "image": "Maneater.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Rage",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 8,
+          "damageType": "shotgun",
+          "image": "Rage.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Warmonger",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 7,
+          "damageType": "railgun",
+          "image": "Warmonger.jpg",
+          "faction": "Animal Clan"
+        }
+      ]
+    },
+    "Cyberlites": {
+      "common": [
+        {
+          "name": "Glinting Repeater",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "auto blaster",
+          "image": "Glinting Repeater.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Sprocket",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Sprocket.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Chromed Repeater",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "auto blaster",
+          "image": "Chromed Repeater.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Pulse",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Pulse.jpg",
+          "faction": "Cyberlites"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Blackout",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "special": "blind",
+          "specialRounds": 1,
+          "specialDamage": 1,
+          "specialSkip": 1,
+          "specialPercentage": 0.26,
+          "damageType": "shotgun",
+          "image": "Blackout.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Vicious",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "special": "bleed",
+          "specialRounds": 1,
+          "specialDamage": 1,
+          "specialPercentage": 0.26,
+          "damageType": "rifle",
+          "image": "Vicious.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Exile",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "rifle",
+          "image": "Exile.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Toots",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 5,
+          "damageType": "railgun",
+          "image": "Toots.jpg",
+          "faction": "Cyberlites"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Punisher",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 7,
+          "damageType": "revolver",
+          "image": "Punisher.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Disturbance",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 7,
+          "damageType": "revolver",
+          "image": "Disturbance.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Widow Maker",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "revolver",
+          "special": "bleed",
+          "specialRounds": 2,
+          "specialDamage": 3,
+          "specialPercentage": 0.4,
+          "image": "Widow Maker.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Headhunter",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 8,
+          "damageType": "rifle",
+          "image": "Headhunter.jpg",
+          "faction": "Cyberlites"
+        }
+      ]
+    },
+    "Pioneers": {
+      "common": [
+        {
+          "name": "Legacy",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Legacy.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Echo",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "revolver",
+          "image": "Echo.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Dream",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "blaster",
+          "image": "Dream.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Patriot",
+          "type": "ranged",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "rifle",
+          "image": "Patriot.jpg",
+          "faction": "Pioneers"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Lightning Iron Revolver",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "revolver",
+          "special": "lightning",
+          "specialRounds": 1,
+          "specialDamage": 3,
+          "specialPercentage": 0.32,
+          "image": "Lightning Iron Revolver.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Iron Patriot",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "rifle",
+          "special": "radiant",
+          "specialRounds": 2,
+          "specialDamage": 1,
+          "specialPercentage": 0.33,
+          "image": "Iron Patriot.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Guardian",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "blaster",
+          "image": "Guardian.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Commando Repeater",
+          "type": "ranged",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "auto blaster",
+          "image": "Commando Repeater.jpg",
+          "faction": "Pioneers"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Furious Ironbark Blunderbuss",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "shotgun",
+          "special": "shrapnel",
+          "specialRounds": 2,
+          "specialDamage": 4,
+          "specialPercentage": 0.42,
+          "image": "Furious Ironbark Blunderbuss.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Big Daddy",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "rifle",
+          "special": "fire",
+          "specialRounds": 3,
+          "specialDamage": 3,
+          "specialPercentage": 0.4,
+          "image": "Big Daddy.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Nirvana",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "rifle",
+          "special": "radiant",
+          "specialRounds": 3,
+          "specialDamage": 2,
+          "specialPercentage": 0.43,
+          "image": "Nirvana.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Apocalypse",
+          "type": "ranged",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "rifle",
+          "special": "necrotic",
+          "specialRounds": 3,
+          "specialDamage": 3,
+          "specialPercentage": 0.44,
+          "image": "Apocalypse.jpg",
+          "faction": "Pioneers"
+        }
+      ]
+    }
+  },
+  "slotTwo": {
+    "Anarkists": {
+      "common": [
+        {
+          "name": "Blood",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Blood.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Interrogator",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Interrogator.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Space Rapier",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "piercing",
+          "image": "Space Rapier.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Whirl Lash",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Whirl Lash.jpg",
+          "faction": "Anarkists"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Wrath",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "image": "Wrath.jpg",
+          "special": "cold",
+          "specialSkip": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.25,
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Fate",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "slashing",
+          "image": "Fate.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Truth Tearer",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "image": "Truth Tearer.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Snare Lash",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "slashing",
+          "image": "Snare Lash.jpg",
+          "faction": "Anarkists"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Massacre",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "image": "Massacre.jpg",
+          "special": "bleed",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.38,
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Witherbrand",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "image": "Witherbrand.jpg",
+          "special": "bleed",
+          "specialDamage": 2,
+          "specialRounds": 4,
+          "specialPercentage": 0.45,
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Laser Staff",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "bludgeoning",
+          "image": "Laser Staff.jpg",
+          "special": "lightning",
+          "specialDamage": 3,
+          "specialRounds": 3,
+          "specialPercentage": 0.42,
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Oath Keeper",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "image": "Oath Keeper.jpg",
+          "special": "radiant",
+          "specialDamage": 2,
+          "specialRounds": 3,
+          "specialPercentage": 0.38,
+          "faction": "Anarkists"
+        }
+      ]
+    },
+    "United Stars": {
+      "common": [
+        {
+          "name": "Peacesong",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Peacesong.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Dawn",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Dawn.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Drillmaster",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "piercing",
+          "image": "Drillmaster.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Ultra Smasher",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "bludgeoning",
+          "image": "Ultra Smasher.jpg",
+          "faction": "United Stars"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Earthsong",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "slashing",
+          "image": "Earthsong.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Mighty Axe",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "slashing",
+          "special": "bleed",
+          "specialDamage": 2,
+          "specialRounds": 1,
+          "specialPercentage": 0.33,
+          "image": "Mighty Axe.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Space Quaker",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "bludgeoning",
+          "image": "Space Quaker.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Frostward",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "slashing",
+          "special": "cold",
+          "specialDamage": 2,
+          "specialRounds": 1,
+          "specialPercentage": 0.33,
+          "image": "Frostward.jpg",
+          "faction": "United Stars"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Solarsong",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "special": "radiant",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.38,
+          "image": "Solarsong.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Vengeance Razor",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 8,
+          "damageType": "slashing",
+          "image": "Vengeance Razor.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Phantomsong",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "special": "necrotic",
+          "specialDamage": 2,
+          "specialRounds": 3,
+          "specialPercentage": 0.35,
+          "image": "Phantomsong.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Nexus",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "special": "radiant",
+          "specialDamage": 3,
+          "specialRounds": 3,
+          "specialPercentage": 0.36,
+          "image": "Nexus.jpg",
+          "faction": "United Stars"
+        }
+      ]
+    },
+    "Animal Clan": {
+      "common": [
+        {
+          "name": "Ash",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "bludgeoning",
+          "image": "Ash.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Bulldog",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "piercing",
+          "image": "Bulldog.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Plant Breaker",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "bludgeoning",
+          "image": "Plant Breaker.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Netherlight",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Netherlight.jpg",
+          "faction": "Animal Clan"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Pounder of the Depth",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "bludgeoning",
+          "image": "Pounder of the Depth.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "World Slayer",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "image": "World Slayer.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Oct-A-Sword",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "image": "Oct-A-Sword.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Rock Quaker",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "bludgeoning",
+          "image": "Rock Quaker.jpg",
+          "faction": "Animal Clan"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Fiery Katana",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "special": "fire",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.36,
+          "image": "Fiery Katana.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Wolf",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 7,
+          "damageType": "piercing",
+          "image": "Wolf.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Avenger",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "piercing",
+          "special": "bleed",
+          "specialDamage": 2,
+          "specialRounds": 3,
+          "specialPercentage": 0.42,
+          "image": "Avenger.jpg",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Alpha",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 8,
+          "damageType": "slashing",
+          "image": "Alpha.jpg",
+          "faction": "Animal Clan"
+        }
+      ]
+    },
+    "Cyberlites": {
+      "common": [
+        {
+          "name": "Sting",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "piercing",
+          "image": "Sting.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Net Staff",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "bludgeoning",
+          "image": "Net Staff.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Celeste",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "piercing",
+          "image": "Celeste.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Arm Blade",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 2,
+          "damageType": "slashing",
+          "image": "Arm Blade.jpg",
+          "faction": "Cyberlites"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Lifedrinker",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "special": "life",
+          "specialDamage": 3,
+          "specialRounds": 1,
+          "health": 3,
+          "specialPercentage": 0.32,
+          "image": "Lifedrinker.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Electro Gloves",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "bludgeoning",
+          "special": "lightning",
+          "specialDamage": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.34,
+          "image": "Electro Gloves.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Neo Shocker",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "piercing",
+          "special": "lightning",
+          "specialDamage": 3,
+          "specialRounds": 1,
+          "specialPercentage": 0.36,
+          "image": "Neo Shocker.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Soulkeeper",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "special": "life",
+          "specialDamage": 2,
+          "specialRounds": 2,
+          "health": 2,
+          "specialPercentage": 0.33,
+          "image": "Soulkeeper.jpg",
+          "faction": "Cyberlites"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Soul Devourer",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 7,
+          "damageType": "slashing",
+          "image": "Soul Devourer.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Soul Reaper",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "slashing",
+          "image": "Soul Reaper.jpg",
+          "special": "bleed",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.4,
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Vowed Blade",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "image": "Vowed Blade.jpg",
+          "special": "radiant",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.39,
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Blaze Fury",
+          "type": "melee",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "image": "Blaze Fury.jpg",
+          "special": "fire",
+          "specialDamage": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.36,
+          "faction": "Cyberlites"
+        }
+      ]
+    },
+    "Pioneers": {
+      "common": [
+        {
+          "name": "Axe of Steel",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Axe of Steel.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Prophecy",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Prophecy.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Battleworn",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Battleworn.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Liberty",
+          "type": "melee",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "slashing",
+          "image": "Liberty.jpg",
+          "faction": "Pioneers"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Oathbreaker",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "bludgeoning",
+          "image": "Oathbreaker.jpg",
+          "special": "breaks",
+          "specialDamage": 2,
+          "specialRounds": 1,
+          "specialPercentage": 0.31,
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Blind Justice",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "bludgeoning",
+          "image": "Blind Justice.jpg",
+          "special": "blind",
+          "specialDamage": 1,
+          "specialSkip": 1,
+          "specialRounds": 1,
+          "specialPercentage": 0.33,
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Mage Blade",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "slashing",
+          "special": "radiant",
+          "specialDamage": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.32,
+          "image": "Mage Blade.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Mind Rod",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "bludgeoning",
+          "special": "radiant",
+          "specialDamage": 1,
+          "specialRounds": 3,
+          "specialPercentage": 0.34,
+          "image": "Mind Rod.jpg",
+          "faction": "Pioneers"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Mercy",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 6,
+          "damageType": "slashing",
+          "special": "increased to hit",
+          "specialMeleeToHit": 0.3,
+          "specialRounds": 2,
+          "specialPercentage": 0.4,
+          "image": "Mercy.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Justice",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 5,
+          "damageType": "slashing",
+          "special": "bleed",
+          "specialDamage": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.4,
+          "image": "Justice.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Whisperer",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 7,
+          "damageType": "slashing",
+          "image": "Whisperer.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Shadow",
+          "type": "melee",
+          "rarity": "uncommon",
+          "additionalDamage": 6,
+          "damageType": "bludgeoning",
+          "special": "necrotic",
+          "specialDamage": 3,
+          "specialRounds": 2,
+          "specialPercentage": 0.42,
+          "image": "Shadow.jpg",
+          "faction": "Pioneers"
+        }
+      ]
+    }
+  },
+  "slotThree": {
+    "Anarkists": {
+      "common": [
+        {
+          "name": "Doom Kaboom",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "explosive",
+          "image": "Doom Kaboom.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Eclipse",
+          "type": "device",
+          "rarity": "common",
+          "special": "invisibility",
+          "specialRounds": 1,
+          "specialSkip": 1,
+          "specialPercentage": 0.4,
+          "image": "Eclipse.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Penance",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "explosive",
+          "image": "Penance.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Illumina",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "radiant",
+          "image": "Illumina.jpg",
+          "faction": "Anarkists"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Mystery",
+          "type": "explosive",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "radiant",
+          "image": "Mystery.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Destroyer",
+          "type": "explosive",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "explosive",
+          "image": "Destroyer.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Snowfall",
+          "type": "device",
+          "rarity": "rare",
+          "additionalDamage": 4,
+          "damageType": "cold",
+          "image": "Snowfall.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Molotov",
+          "type": "device",
+          "rarity": "rare",
+          "additionalDamage": 3,
+          "damageType": "fire",
+          "image": "Molotov.jpg",
+          "faction": "Anarkists"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Doom Shadow",
+          "type": "device",
+          "rarity": "rare",
+          "special": "invisibility",
+          "specialRounds": 3,
+          "specialSkip": 3,
+          "specialPercentage": 0.4,
+          "image": "Doom Shadow.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Soul Orb",
+          "type": "device",
+          "rarity": "rare",
+          "special": "life",
+          "specialRounds": 2,
+          "specialPercentage": 0.42,
+          "health": 3,
+          "image": "Soul Orb.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Omega",
+          "type": "device",
+          "rarity": "rare",
+          "special": "turret",
+          "specialDamage": 5,
+          "specialRounds": 2,
+          "specialPercentage": 0.42,
+          "image": "Omega.jpg",
+          "faction": "Anarkists"
+        },
+        {
+          "name": "Tranquillity",
+          "type": "device",
+          "rarity": "rare",
+          "special": "skip",
+          "specialSkip": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.44,
+          "image": "Tranquillity.jpg",
+          "faction": "Anarkists"
+        }
+      ]
+    },
+    "United Stars": {
+      "common": [
+        {
+          "name": "Stardust",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "radiant",
+          "image": "Stardust.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Starlight",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "radiant",
+          "image": "Starlight.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Dusk Light",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "necrotic",
+          "image": "Dusk Light.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Glimmer",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "radiant",
+          "image": "Glimmer.jpg",
+          "faction": "United Stars"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Meteor",
+          "type": "explosive",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "radiant",
+          "image": "Meteor.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Laser Sphere",
+          "type": "device",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "auto blaster",
+          "image": "Laser Sphere.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Requiem",
+          "type": "device",
+          "rarity": "uncommon",
+          "special": "skip",
+          "specialSkip": 1,
+          "specialRounds": 1,
+          "image": "Requiem.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Doom Ward",
+          "type": "device",
+          "rarity": "uncommon",
+          "special": "shield",
+          "specialRounds": 1,
+          "specialDefense": 0.2,
+          "specialPercentage": 0.25,
+          "image": "Doom Ward.jpg",
+          "faction": "United Stars"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Asteroid",
+          "type": "explosive",
+          "rarity": "rare",
+          "additionalDamage": 5,
+          "damageType": "radiant",
+          "image": "Asteroid.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Skyfall",
+          "type": "explosive",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "radiant",
+          "image": "Skyfall.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Blazefury",
+          "type": "explosive",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "fire",
+          "image": "Blazefury.jpg",
+          "faction": "United Stars"
+        },
+        {
+          "name": "Serenity",
+          "type": "device",
+          "rarity": "rare",
+          "special": "life",
+          "specialRounds": 2,
+          "specialPercentage": 0.42,
+          "health": 3,
+          "image": "Serenity.jpg",
+          "faction": "United Stars"
+        }
+      ]
+    },
+    "Animal Clan": {
+      "common": [
+        {
+          "name": "Shadowfall",
+          "type": "device",
+          "rarity": "common",
+          "image": "Shadowfall.jpg",
+          "special": "invisibility",
+          "specialRounds": 1,
+          "specialSkip": 1,
+          "specialPercentage": 0.3,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Emberling",
+          "type": "explosive",
+          "rarity": "common",
+          "image": "Emberling.jpg",
+          "additionalDamage": 1,
+          "damageType": "fire",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Beta",
+          "type": "explosive",
+          "rarity": "common",
+          "image": "Beta.jpg",
+          "additionalDamage": 1,
+          "damageType": "explosive",
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Mirage",
+          "type": "device",
+          "rarity": "common",
+          "image": "Mirage.jpg",
+          "special": "invisibility",
+          "specialRounds": 1,
+          "specialSkip": 1,
+          "specialPercentage": 0.27,
+          "faction": "Animal Clan"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Orb of Power",
+          "type": "device",
+          "rarity": "uncommon",
+          "image": "Orb of Power.jpg",
+          "special": "damage boost",
+          "specialRounds": 2,
+          "specialDamage": 2,
+          "specialPercentage": 0.34,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Inertia",
+          "type": "device",
+          "rarity": "uncommon",
+          "image": "Inertia.jpg",
+          "special": "skip",
+          "specialSkip": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.33,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Orb of Agony",
+          "type": "device",
+          "rarity": "uncommon",
+          "image": "Orb of Agony.jpg",
+          "special": "damage boost",
+          "specialRounds": 2,
+          "specialDamage": 2,
+          "specialPercentage": 0.33,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Orb of Blessing",
+          "type": "device",
+          "rarity": "uncommon",
+          "image": "Orb of Blessing.jpg",
+          "special": "shield",
+          "specialRounds": 2,
+          "specialDefense": 0.2,
+          "specialPercentage": 0.33,
+          "faction": "Animal Clan"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Void",
+          "type": "device",
+          "rarity": "rare",
+          "image": "Void.jpg",
+          "special": "invisibility",
+          "specialRounds": 3,
+          "specialSkip": 3,
+          "specialPercentage": 0.42,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Desolation Orb",
+          "type": "device",
+          "rarity": "rare",
+          "damageType": "fire",
+          "image": "Desolation Orb.jpg",
+          "special": "turret",
+          "specialRounds": 2,
+          "specialDamage": 5,
+          "specialPercentage": 0.4,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Labyrinth",
+          "type": "device",
+          "rarity": "rare",
+          "image": "Labyrinth.jpg",
+          "special": "skip",
+          "specialSkip": 3,
+          "specialRounds": 3,
+          "specialPercentage": 0.4,
+          "faction": "Animal Clan"
+        },
+        {
+          "name": "Pandemonium",
+          "type": "explosive",
+          "rarity": "rare",
+          "damageType": "necrotic",
+          "image": "Pandemonium.jpg",
+          "additionalDamage": 5,
+          "faction": "Animal Clan"
+        }
+      ]
+    },
+    "Cyberlites": {
+      "common": [
+        {
+          "name": "Doom Guard",
+          "type": "device",
+          "rarity": "common",
+          "specialRounds": 1,
+          "specialDefense": 0.2,
+          "specialPercentage": 0.25,
+          "special": "shield",
+          "image": "Doom Guard.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Disc Bomb",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "explosive",
+          "image": "Disc Bomb.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Drone Turret",
+          "type": "device",
+          "rarity": "common",
+          "specialRounds": 1,
+          "specialDamage": 1,
+          "specialPercentage": 0.25,
+          "special": "turret",
+          "image": "Drone Turret.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Microbot",
+          "type": "device",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "nanites",
+          "image": "Microbot.jpg",
+          "faction": "Cyberlites"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Homing Beacon",
+          "type": "device",
+          "image": "Homing Beacon.jpg",
+          "rarity": "uncommon",
+          "special": "redirect ranged damage",
+          "specialRangedDefense": 0.33,
+          "specialRounds": 1,
+          "specialPercentage": 0.36,
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Equalizer",
+          "type": "device",
+          "image": "Equalizer.jpg",
+          "rarity": "uncommon",
+          "special": "redirect ranged damage",
+          "specialRangedDefense": 0.22,
+          "specialRounds": 2,
+          "specialPercentage": 0.35,
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Dominance Ring",
+          "type": "device",
+          "image": "Dominance Ring.jpg",
+          "rarity": "uncommon",
+          "special": "skip",
+          "specialRounds": 2,
+          "specialSkip": 2,
+          "specialPercentage": 0.36,
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Cloak",
+          "type": "device",
+          "image": "Cloak.jpg",
+          "rarity": "uncommon",
+          "special": "invisibility",
+          "specialRounds": 2,
+          "specialSkip": 2,
+          "specialPercentage": 0.38,
+          "faction": "Cyberlites"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Doom Beacon",
+          "type": "device",
+          "image": "Doom Beacon.jpg",
+          "rarity": "rare",
+          "specialRounds": 3,
+          "specialDefense": 0.35,
+          "specialPercentage": 0.55,
+          "special": "redirect damage",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Nanite Bomb",
+          "type": "device",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "nanites",
+          "image": "Nanite Bomb.jpg",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Athanasia",
+          "type": "device",
+          "image": "Athanasia.jpg",
+          "rarity": "rare",
+          "specialRounds": 3,
+          "health": 3,
+          "specialPercentage": 0.55,
+          "special": "life",
+          "faction": "Cyberlites"
+        },
+        {
+          "name": "Drone Swarm",
+          "type": "device",
+          "rarity": "rare",
+          "additionalDamage": 6,
+          "damageType": "nanites",
+          "image": "Drone Swarm.jpg",
+          "faction": "Cyberlites"
+        }
+      ]
+    },
+    "Pioneers": {
+      "common": [
+        {
+          "name": "Atrax",
+          "type": "explosive",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "explosive",
+          "image": "Atrax.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Lightning Sphere",
+          "type": "device",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "lightning",
+          "image": "Lightning Sphere.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Fear",
+          "type": "device",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "special": "skip",
+          "specialRounds": 1,
+          "specialSkip": 1,
+          "specialPercentage": 0.3,
+          "image": "Fear.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Fire Blast",
+          "type": "device",
+          "rarity": "common",
+          "additionalDamage": 1,
+          "damageType": "fire",
+          "image": "Fire Blast.jpg",
+          "faction": "Pioneers"
+        }
+      ],
+      "uncommon": [
+        {
+          "name": "Vanquisher",
+          "type": "explosive",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "explosive",
+          "image": "Vanquisher.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Hell's Bells",
+          "type": "device",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "necrotic",
+          "image": "Hell's Bells.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Frost",
+          "type": "device",
+          "rarity": "uncommon",
+          "additionalDamage": 3,
+          "damageType": "cold",
+          "image": "Frost.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Shatter",
+          "type": "device",
+          "rarity": "uncommon",
+          "additionalDamage": 4,
+          "damageType": "lightning",
+          "image": "Shatter.jpg",
+          "faction": "Pioneers"
+        }
+      ],
+      "rare": [
+        {
+          "name": "Quickness",
+          "type": "device",
+          "rarity": "rare",
+          "special": "skip",
+          "specialSkip": 2,
+          "specialRounds": 2,
+          "specialPercentage": 0.43,
+          "image": "Quickness.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Summon",
+          "type": "device",
+          "rarity": "rare",
+          "special": "summon",
+          "specialRounds": 3,
+          "specialPercentage": 0.44,
+          "image": "Summon.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Waterfall",
+          "type": "device",
+          "rarity": "rare",
+          "specialDamage": 3,
+          "damageType": "water",
+          "special": "skip",
+          "specialSkip": 2,
+          "specialRounds": 1,
+          "specialPercentage": 0.4,
+          "image": "Waterfall.jpg",
+          "faction": "Pioneers"
+        },
+        {
+          "name": "Scream Orb",
+          "type": "device",
+          "rarity": "rare",
+          "specialDamage": 2,
+          "damageType": "necrotic",
+          "special": "skip",
+          "specialSkip": 1,
+          "specialRounds": 1,
+          "specialPercentage": 0.44,
+          "image": "Scream Orb.jpg",
+          "faction": "Pioneers"
+        }
+      ]
+    }
+  }
+}

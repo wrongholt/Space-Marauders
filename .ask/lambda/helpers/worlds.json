@@ -1,0 +1,35 @@
+{
+  "acrux v": {
+    "name": "Acrux V"
+  },
+  "prim": {
+    "name": "Prim"
+  },
+  "damons": {
+    "name": "Damons"
+  },
+  "eros": {
+    "name": "Eros"
+  },
+  "medea": {
+    "name": "Medea"
+  },
+  "thrace": {
+    "name": "Thrace"
+  },
+  "romularus": {
+    "name": "Romularus"
+  },
+  "ulysses": {
+    "name": "Ulysses"
+  },
+  "styx": {
+    "name": "Styx"
+  },
+  "magnum": {
+    "name": "Magnum"
+  },
+  "altuna": {
+    "name": "Altuna"
+  }
+}

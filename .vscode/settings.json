@@ -1,0 +1,78 @@
+{
+  "serverlessConsole.services": [
+    {
+      "type": "custom",
+      "title": "Logs",
+      "timeOffsetInMs": 0,
+      "awsProfile": "will",
+      "items": [
+        {
+          "title": "/aws/lambda/ask-spaceunknown-default-default-1620049351390",
+          "tabs": [
+            {
+              "region": "us-east-1",
+              "title": "dev",
+              "logs": "/aws/lambda/ask-spaceunknown-default-default-1620049351390"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dynamodb",
+      "title": "spaceWestern",
+      "tableName": "spaceWestern",
+      "awsProfile": "will",
+      "region": "us-east-1"
+    }
+  ],
+  "cSpell.ignoreWords": [
+    "airtable",
+    "alexa",
+    "alexanna",
+    "anarkist",
+    "anarkists",
+    "anika",
+    "asharden",
+    "atrax",
+    "boomstick",
+    "cyberlites",
+    "destigar",
+    "destinys",
+    "doom",
+    "earthsong",
+    "fiery",
+    "general",
+    "goes",
+    "gorillos",
+    "icer",
+    "jorge",
+    "kablooey",
+    "kaboom",
+    "katana",
+    "katiana",
+    "kazuko",
+    "leaderboards",
+    "lifedrinker",
+    "maneater",
+    "oathbreaker",
+    "peacesong",
+    "prideful",
+    "reprompt",
+    "rifle",
+    "sazama",
+    "shadowfall",
+    "solarsong",
+    "starfall",
+    "vasiliev"
+  ],
+  "cSpell.words": [
+    "Altuna",
+    "Frostward",
+    "Gollageth",
+    "Haelerion",
+    "Romularus",
+    "damons",
+    "nanites"
+  ]
+}

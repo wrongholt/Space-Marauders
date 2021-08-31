@@ -1,0 +1,131 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:837782226885:function:ask-spaceunknown-default-default-1620049351390"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "maxHeight": 540,
+                "maxWidth": 960,
+                "minHeight": 540,
+                "minWidth": 960,
+                "mode": "TV",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 599,
+                "maxWidth": 599,
+                "minHeight": 100,
+                "minWidth": 100,
+                "mode": "HUB",
+                "shape": "ROUND"
+              },
+              {
+                "maxHeight": 959,
+                "maxWidth": 1279,
+                "minHeight": 600,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1279,
+                "maxWidth": 1920,
+                "minHeight": 600,
+                "minWidth": 1280,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 599,
+                "maxWidth": 1279,
+                "minHeight": 100,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1920,
+                "maxWidth": 959,
+                "minHeight": 320,
+                "minWidth": 600,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1920,
+                "maxWidth": 1279,
+                "minHeight": 320,
+                "minWidth": 960,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE"
+              },
+              {
+                "maxHeight": 1920,
+                "maxWidth": 1920,
+                "minHeight": 320,
+                "minWidth": 1280,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE"
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          },
+          {
+            "autoInitializedExtensions": [
+              {
+                "settings": {
+                  "wakeWordResponse": "followOnWakeWord"
+                },
+                "uri": "alexaext:smartmotion:10"
+              }
+            ],
+            "requestedExtensions": [
+              {
+                "uri": "alexaext:smartmotion:10"
+              }
+            ],
+            "type": "ALEXA_EXTENSION"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::profile:given_name:read"
+      },
+      {
+        "name": "alexa::profile:mobile_number:read"
+      },
+      {
+        "name": "alexa::profile:email:read"
+      },
+      {
+        "name": "alexa::alerts:reminders:skill:readwrite"
+      }
+    ],
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "name": "Space Marauders",
+          "summary": ""
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
